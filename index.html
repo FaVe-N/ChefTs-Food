@@ -1,82 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- flaticon link -->
-     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-     <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Home</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <nav class="nav">
-            <div class="nav__links">
-                <ul>
-                    <li class="nav__link active">
-                        <a href="index.html"><i class="fi fi-rr-home"></i>Home</a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="about.html"><i class="fi fi-rr-user"></i>About</a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="menu.html"><i class="fi fi-rr-restaurant"></i>Menu</a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="gallery.html"><i class="fi fi-rr-camera"></i>Gallery</a>
-                    </li>
-                </ul>
-            </div>
-            <a href="" class="nav__cart cart"><i class="fi fi-rr-shopping-cart"></i></a>
-        </nav>
+      <nav class="nav">
+        <div class="nav__links">
+          <ul>
+            <li class="nav__link active">
+              <a href="index.html"><i class="fi fi-rr-home"></i>Home</a>
+            </li>
+            <li class="nav__link">
+              <a href="about.html"><i class="fi fi-rr-user"></i>About</a>
+            </li>
+            <li class="nav__link">
+              <a href="menu.html"><i class="fi fi-rr-restaurant"></i>Menu</a>
+            </li>
+            <li class="nav__link">
+              <a href="gallery.html"><i class="fi fi-rr-camera"></i>Gallery</a>
+            </li>
+            <li class="nav__link">
+              <a href="" class="nav__cart cart"
+                ><i class="fi fi-rr-shopping-cart"></i>My Cart</a
+              >
+            </li>
+            <li class="nav__link">
+              <a href="" class="close-menu"
+                ><i class="fi fi-rr-circle-xmark"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__actions">
+          <a href="" class="open-menu" id="open-menu"><i class="fi fi-rr-menu-burger"></i></a>
+        </div>
+      </nav>
     </header>
 
     <!-- main -->
     <main>
-        <section class="hero">
-            <div class="logo" ><img src="assets/img/logo.png" alt="logo image"></div>
-            <div class="hero__content">
-                <h1 class="hero__text"><span>Taste</span> the <span>Home</span> <br> You've Been Missing</h1>
-                <a href="#" class="btn pry"><img src="assets/icons/whatsapp-svgrepo-com.svg" alt="whatsapp logo">ORDER ON WHATSAPP <i class="fi fi-rr-arrow-right"></i></a>
-            </div>
-        </section>
+      <section class="hero">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="logo image" />
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__text">
+            <span>Taste</span> the <span>Home</span> <br />
+            You've Been Missing
+          </h1>
+          <a href="#" class="btn pry"
+            ><img
+              src="assets/icons/whatsapp-svgrepo-com.svg"
+              alt="whatsapp logo" />ORDER ON WHATSAPP
+            <i class="fi fi-rr-arrow-right"></i
+          ></a>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
     <footer class="container footer">
-        <div class="footer__content">
-            <div class="footer__details">
-                <div class="footer__sub-details">
-                    <p class="title">Address</p>
-                    <p class="text">24 Orchid road, Off Awolowo <br> Street, Ikoyi, Lagos State</p>
-                </div>
-                <div class="footer__sub-details">
-                    <p class="title">Hours</p>
-                    <p class="text">Mon - Fri: 09:00 - 7pm</p>
-                </div>
-                <div class="footer__sub-details">
-                    <p class="title">Phone</p>
-                    <p class="text">+234 9012 345 678</p>
-                </div>
-                <div class="footer__sub-details">
-                    <p class="title">Socials</p>
-                    <div class="footer__icons">
-                        <ul>
-                            <li><a href="#" class="footer__icon"><img src="assets/icons/mynaui_x-twitter.png" alt=""></a></li>
-                            <li><a href="#" class="footer__icon"><img src="assets/icons/Instagram.png" alt=""></a></li>
-                            <li><a href="#" class="footer__icon"><img src="assets/icons/linkedin-svgrepo-com 1.png" alt=""></a></li>
-                            <li><a href="#" class="footer__icon"><img src="assets/icons/mingcute_tiktok-line.png" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="footer__content">
+        <div class="footer__details">
+          <div class="footer__sub-details">
+            <p class="title">Address</p>
+            <p class="text">
+              24 Orchid road, Off Awolowo <br />
+              Street, Ikoyi, Lagos State
+            </p>
+          </div>
+          <div class="footer__sub-details">
+            <p class="title">Hours</p>
+            <p class="text">Mon - Fri: 09:00 - 7pm</p>
+          </div>
+          <div class="footer__sub-details">
+            <p class="title">Phone</p>
+            <p class="text">+234 9012 345 678</p>
+          </div>
+          <div class="footer__sub-details">
+            <p class="title">Socials</p>
+            <div class="footer__icons">
+              <ul>
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="assets/icons/mynaui_x-twitter.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="assets/icons/Instagram.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="assets/icons/linkedin-svgrepo-com 1.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="assets/icons/mingcute_tiktok-line.png" alt=""
+                  /></a>
+                </li>
+              </ul>
             </div>
-            <div class="footer__copyright">
-                <p class="copyright">© 2026 Uncle Nedu’s Kitchen</p>
-            </div>
+          </div>
         </div>
+        <div class="footer__copyright">
+          <p class="copyright">© 2026 Uncle Nedu’s Kitchen</p>
+        </div>
+      </div>
     </footer>
-</body>
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
